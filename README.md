@@ -1,16 +1,21 @@
-# MFA_lyon_dataset
+MFA_lyon_dataset
+- Dataset Cleanup
 
-- Cleanup the dataset:
-python textgrid_word_replacer.py chemin/vers/dossier --wrong-words mots_incorrects.txt --correct-words mots_corrects.txt
+’python textgrid_word_replacer.py path/to/folder --wrong-words wrong_words.txt --correct-words correct_words.txt’
+Available options (all can be combined):
+--replace-hyphens: replaces hyphens and underscores with spaces
 
-Options disponibles (toutes combinables)
+--remove-parentheses: removes content inside parentheses
 
---replace-hyphens : Remplace les tirets et underscores par des espaces
---remove-parentheses : Supprime le contenu entre parenthèses
---wrong-words et --correct-words : Remplace les mots selon des listes
--r, --recursive : Traite aussi les sous-répertoires
---no-backup : Ne crée pas de copies de sauvegarde
-change capital lettre->
-space final word with dot
-##MFA
+--wrong-words and --correct-words: replaces words based on provided lists
 
+-r, --recursive: also processes subdirectories
+
+--no-backup: does not create backup copies
+
+- Other transformations applied automatically:
+  - Converts capital letters to lowercase
+  - Removes final space before a period
+
+
+[MFAligner](https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/models/index.html)
