@@ -18,4 +18,5 @@ Available options (all can be combined):
   - Removes final space before a period
 
 
-[MFAligner](https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/models/index.html)
+- Alignment:
+  We use [MFAligner](https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/models/index.html).
