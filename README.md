@@ -1,6 +1,4 @@
-Here's a cleaner and improved version of your `file.md`:
 
----
 
 # MFA\_lyon\_dataset
 
@@ -31,4 +29,4 @@ We use **MFAligner** for alignment.
 
 ---
 
-Let me know if you'd like a section on how to install dependencies or an example command.
+
