@@ -1,22 +1,34 @@
-MFA_lyon_dataset
-- Dataset Cleanup
+Here's a cleaner and improved version of your `file.md`:
 
-’python textgrid_word_replacer.py path/to/folder --wrong-words wrong_words.txt --correct-words correct_words.txt’
-Available options (all can be combined):
---replace-hyphens: replaces hyphens and underscores with spaces
+---
 
---remove-parentheses: removes content inside parentheses
+# MFA\_lyon\_dataset
 
---wrong-words and --correct-words: replaces words based on provided lists
+## Dataset Cleanup
 
--r, --recursive: also processes subdirectories
+To clean the dataset, run:
 
---no-backup: does not create backup copies
+```bash
+python textgrid_word_replacer.py path/to/folder --wrong-words wrong_words.txt --correct-words correct_words.txt
+```
 
-- Other transformations applied automatically:
-  - Converts capital letters to lowercase
-  - Removes final space before a period
+### Available Options (combinable):
 
+* `--replace-hyphens`: Replace hyphens and underscores with spaces
+* `--remove-parentheses`: Remove content within parentheses
+* `--wrong-words` / `--correct-words`: Replace words based on the provided lists
+* `-r`, `--recursive`: Also process subdirectories
+* `--no-backup`: Do not create backup copies
 
-- Alignment:
-  We use [MFAligner](https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/models/index.html).
+### Automatic Transformations:
+
+* Convert capital letters to lowercase
+* Remove final space before a period
+
+## Alignment
+
+We use **MFAligner** for alignment.
+
+---
+
+Let me know if you'd like a section on how to install dependencies or an example command.
