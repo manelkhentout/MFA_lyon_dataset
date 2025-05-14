@@ -1,5 +1,3 @@
-
-
 # MFA\_lyon\_dataset
 
 ## Dataset Cleanup
@@ -26,7 +24,5 @@ python textgrid_word_replacer.py path/to/folder --wrong-words wrong_words.txt --
 ## Alignment
 
 We use **MFAligner** for alignment.
-
----
 
 
