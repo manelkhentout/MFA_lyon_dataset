@@ -18,8 +18,8 @@ python textgrid_word_replacer.py path/to/folder --wrong-words wrong_words.txt --
 
 ### Automatic Transformations:
 
-* Convert capital letters to lowercase
-* Remove final space before a period
+* Convert capital letters to lowercase.
+* Remove final space before a word.
 
 ## Alignment
 
